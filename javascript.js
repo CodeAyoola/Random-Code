@@ -58,8 +58,9 @@ function newQuote() {
   document.getElementById('quoteDisplay').style.marginLeft = '5px';
   document.getElementById('quoteDisplay').style.marginRight = '5px';
   document.getElementById('quoteDisplay').style.marginBottom = '10px;';
-  document.querySelector('body').style.backgroundImage =
-    "url('./download.jpeg')";
+  document.querySelector(
+    'body'
+  ).style.backgroundImage = `url('./bg-${randomNumber}.jpg')`;
 }
 
 function startDate() {
